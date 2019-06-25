@@ -16,7 +16,26 @@ In this paper, we will discuss a method to generate hybrid RQMC sequences using 
 - The sequence can’t be extended easily without restarting the simulation  
 - Stratified sampling is impractical for dimensions greater than about s=5 by Glasserman [1]  
 - Jittered Stratified sampling or hypercube construction suffers from the “curse of dimensionality” by Jarosz [2]  
-- Completely dividing the hypercube in sub-hyperrectangles forces the value of N, i.e. one can’t freely pick N  
+- Completely dividing the hypercube in sub-hyperrectangles forces the value of N, i.e. one can’t freely pick N
+
+#### Below is the link to the paper in PDF format:
+
+[Implementation of a Hybrid Randomized quasi-Monte Carlo Sequence using Stratified Sampling](../BFS%20Sequences.pdf)
+
+#### Description of source code files:
+- 1000.txt: first 1000 primes
+- Integration multi dimension.ipynb: multi-dimensional integration
+- Plots 2-3 dimension.ipynb: 2 and 3 dimensional plots of different types of sequences
+- anderson.py: Anderson-Darling stastistical test
+- beasley_springer_moro.py: a method to generate normal distributions
+- bfs.py: BFS sequence generation
+- box_muller.py: another method to generate normal distributions
+- brownian motion.ipynb: pricing of European call options using Monte Carlo
+- examples.ipynb: misc problems solved using Monte Carlo
+- halton.py: Halton sequence generation
+- multi-dimensional integration result plots.ipynb: comparison of different sequences to integration problems
+- rand.py: pseudorandom sequence generation
+- standard normal.ipynb: generation of standard normal distribution using various sequences and either beasley_springer_moro.py or box_muller.py
 
 
 
