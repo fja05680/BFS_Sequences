@@ -20,7 +20,7 @@ In this paper, we will discuss a method to generate hybrid RQMC sequences using 
 
 #### Below is the link to the paper in PDF format:
 
-[Implementation of a Hybrid Randomized quasi-Monte Carlo Sequence using Stratified Sampling](../BFS%20Sequences.pdf)
+[Implementation of a Hybrid Randomized quasi-Monte Carlo Sequence using Stratified Sampling](./BFS%20Sequences.pdf)
 
 #### Description of source code files:
 - 1000.txt: first 1000 primes
@@ -36,6 +36,3 @@ In this paper, we will discuss a method to generate hybrid RQMC sequences using 
 - multi-dimensional integration result plots.ipynb: comparison of different sequences to integration problems
 - rand.py: pseudorandom sequence generation
 - standard normal.ipynb: generation of standard normal distribution using various sequences and either beasley_springer_moro.py or box_muller.py
-
-
-
