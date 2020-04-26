@@ -3,12 +3,7 @@
 
 # Write a computer program that implements the Box-Muller method
 
-# use future imports for python 3.x forward compatibility
-from __future__ import print_function
-from __future__ import division
-from __future__ import absolute_import
-
-# other imports
+# imports
 import math
 
 # project imports
